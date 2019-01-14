@@ -1,10 +1,3 @@
-# BioinformaticsHW2
-
-# Results are also stored in calculations.txt
-# random_kmers.py was used to generate the random k-mers that were used for this assignment
-# random k-mers that were generated are stored in rkmers.txt
-# kmer_calc.py contains the python code written for this assignment
-
 Sequence Lenth = 9193
  
 1-mer calculations:
@@ -86,3 +79,4 @@ TGAGTCTTAA count 	= 0 	( 0.0 )
 GCGTAGCCCG count 	= 0 	( 0.0 )
 GAGTGAGTAC count 	= 0 	( 0.0 )
 TGCAATGCTC count 	= 0 	( 0.0 )
+ 
