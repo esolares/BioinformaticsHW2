@@ -4,8 +4,8 @@
 
 ## Results
 
-- ***Part 1. Using kmers from 1-10, calculate the probability any random kmer can be created. I.e. for kmer where k = 1, p = 1/4***
-
+***Part 1. Using kmers from 1-10, calculate the probability any random kmer can be created. I.e. for kmer where k = 1, p = 1/4***
+  
 The probability any random 1-mer can be created is 0.25
 The probability any random 2-mer can be created is 0.0625
 The probability any random 3-mer can be created is 0.015625
@@ -16,9 +16,9 @@ The probability any random 7-mer can be created is 6.103515625e-05
 The probability any random 8-mer can be created is 1.52587890625e-05
 The probability any random 9-mer can be created is 3.814697265625e-06
 The probability any random 10-mer can be created is 9.5367431640625e-07
-
-- ***Generate 5 randomly generated strings using {A,T,C,G} as an alphabet, for each kmer from k = 1 to 10***
-
+  
+***Generate 5 randomly generated strings using {A,T,C,G} as an alphabet, for each kmer from k = 1 to 10***
+  
 5 randomly generated strings for 1-mer:
 \['C', 'A', 'T', 'G', 'A']
 
@@ -48,9 +48,9 @@ The probability any random 10-mer can be created is 9.5367431640625e-07
 
 5 randomly generated strings for 10-mer:
 \['TACCTTTGAG', 'GACACCATTG', 'GTCCCTTGCC', 'GAAAGCGTCC', 'TATCAATGAG']
-
-- ***Part 3. Use python to find each generated kmer in the fasta file located in ~/shared/aligners folder***
-
+  
+***Part 3. Use python to find each generated kmer in the fasta file located in ~/shared/aligners folder***
+  
 Indices of 5 randomly generated strings for 1-mer:
 \[15, 2, 0, 1, 2]
 
