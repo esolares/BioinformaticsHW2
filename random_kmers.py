@@ -3,6 +3,7 @@
 import random
 
 def random_kmer (length: int) -> str:
+	#Generates a random string of the given length from the nucleotides A, T, C, and G
 	nt = ['A', 'T', 'C', 'G']
 	kmer = ''
 	for i in range(length):
@@ -10,6 +11,7 @@ def random_kmer (length: int) -> str:
 	return kmer
 
 if __name__ == '__main__':
+	#Uses the function to generate 5 random k-mers of the given length
 	for i in range(5):
 		print(random_kmer(2))
 	for i in range(5):
